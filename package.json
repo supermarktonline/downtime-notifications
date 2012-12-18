@@ -1,0 +1,17 @@
+{
+  "name": "downtime-notifications",
+  "version": "0.0.1-dev",
+  "private": true,
+  "dependencies": {
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*"
+  }, 
+  "engines": {
+    "node": "*"
+  }
+}
