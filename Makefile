@@ -4,7 +4,10 @@ jade = @./node_modules/jade/bin/jade
 html:
 	$(jade) -O . html_source/{maintenance,problem}.jade
 
-css:
+watchhtml:
+	$(jade) -w -O . html_source/{maintenance,problem}.jade
+
+watchcss:
 	$(stylus) -I node_modules/nib/lib -o css css_source
 
 watch:
